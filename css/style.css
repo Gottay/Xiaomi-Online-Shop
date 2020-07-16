@@ -1,0 +1,116 @@
+/* 公共样式 */
+body{
+    font-size: 12px;
+    color: #333;
+}
+.container{
+    width: 1206px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 顶部代码 */
+.pub-top{
+    height: 40px;
+    background-color: #323232;
+}
+/* 左边样式 */
+.pub-top .top-lt{
+    color: #b0b0b0;
+    line-height: 40px;
+    float: left;
+}
+.pub-top .top-lt span{
+    color: #424242;
+    padding: 0 3px;
+}
+.pub-top .top-lt a{
+    display: inline-block;
+}
+.pub-top .top-lt a:hover{
+    color: #fff;
+}
+.pub-top .top-lt .download{
+    position: relative;
+}
+.pub-top .top-lt .down-box{
+    width: 126px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 40px;
+    margin-left: -55px;
+    padding-top: 20px;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    box-shadow: rgb(170, 170, 170) 0 1px 5px;
+    display: none;
+}
+.pub-top .top-lt .down-box img{
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+}
+.pub-top .top-lt a.download i{
+    font-style: normal;
+}
+.pub-top .top-lt a.download:hover .down-box{
+    display: block;
+}
+/* 右边样式 */
+.pub-top .top-rt{
+    color: #b0b0b0;
+    line-height: 40px;
+    float: right;
+}
+.pub-top .top-rt span{
+    color: #424242;
+}
+.pub-top .top-rt a{
+    display: inline-block;
+}
+.pub-top .shop-box{
+    width: 120px;
+    height: 40px;
+    float: right;
+    margin-left: 15px;
+    background-color: #424242;
+    position: relative;
+    text-align: center;
+}
+.pub-top .shop-box .shop-cart{
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    position: relative;
+}
+.pub-top .shop-box .icon-cart{
+    margin-right: 4px;  
+    vertical-align: -4px;
+}
+.pub-top .shop-box .shop-cart .cart-menu{
+    position: absolute;
+    right: 0;
+    top: 40px;
+    width: 316px;
+    height: 80px;
+    background-color: #fff;
+    color: #424242;
+    box-shadow: 0 2px 10px rgba(0,0,0,.15);
+    padding: 20px 0 0;
+    display: none;
+}
+.pub-top .shop-box .shop-cart .menu-content{
+    height: 60px;
+    line-height: 60px;
+}
+.pub-top .shop-box:hover .shop-cart{
+    color: #ff6700;
+    background-color: #fff;
+}
+.pub-top .shop-box a:hover .cart-menu{
+    display: block;
+}
